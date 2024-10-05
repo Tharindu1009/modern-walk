@@ -1,0 +1,44 @@
+@import '../../../../App.scss';
+
+.label {
+    font-family: $primary-font;
+   
+    &__header {
+        font-size: 25px;
+        font-weight: 700;
+        color: $black;
+    }
+
+    &__sectionHeader {
+        font-size: 20px;
+        font-weight: 600;
+        color: $black;
+    }
+
+    &__cardHeader {
+        font-size: 13px;
+        font-weight: 600;
+        color: $black;
+        text-align: center;
+        display: -webkit-box;
+        -webkit-line-clamp: 3;
+        -webkit-box-orient: vertical;  
+        overflow: hidden;
+    }
+
+    &__productPrice {
+        font-size: 14px;
+        font-weight: 600;
+        color: $blue;
+    }
+
+    &__productDesc {
+        font-size: 12px;
+        font-weight: 500;
+        color: $black;
+        display: -webkit-box;
+        -webkit-line-clamp: 3;
+        -webkit-box-orient: vertical;  
+        overflow: hidden;
+    }
+}

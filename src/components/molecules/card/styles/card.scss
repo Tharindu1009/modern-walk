@@ -1,0 +1,66 @@
+@import '../../../../App.scss';
+
+.card {
+    display: flex;
+    flex-direction: column;
+    background-color: $white;
+    border-radius: 12px;
+    height: 350px;
+    border-right: 1px solid rgba(0,0,0,0.12);
+    border-bottom: 1px solid rgba(0,0,0,0.12);
+    box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.2);
+    flex: 1 0 300px;
+    overflow: hidden;
+    transition: all 250ms ease-in-out;
+    
+    .cardHeader {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        height: 20%;
+        padding: 0px 40px 0px 40px;
+    }
+
+    .cardImageContainer {
+        height: 40%;
+        text-align: center;
+
+        .cardImage {
+            width: 50%;
+            height: 150px;
+            object-fit: cover;
+        }
+    }
+
+    .cardContent {
+        padding: 5px;
+        border-radius: 12px;
+        height: 28%;
+        margin-top: auto;
+
+        .price {
+            padding: 5px;
+            text-align: center;
+        }
+
+        .description {
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            text-align: center;
+            padding: 5px 20px 0px 20px;
+        }
+
+        &__containerTeal {
+            background-color: $teal;
+        }
+
+        &__containerPink {
+            background-color: $pink;
+        }
+    }
+
+    &__flex {
+        margin-right: 20px;
+    }
+}

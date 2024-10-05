@@ -1,0 +1,22 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Header matches header snapshot 1`] = `
+<div
+  className="header"
+  data-testid="header"
+>
+  <div
+    className="title"
+    data-testid="headerTitle"
+    onClick={[Function]}
+  >
+    <div
+      className="label label__header"
+      data-testid="label"
+    >
+       
+      Modern Walk
+    </div>
+  </div>
+</div>
+`;

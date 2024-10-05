@@ -1,0 +1,16 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Banner matches banner snapshot 1`] = `
+<div
+  className="banner banner__teal"
+  data-testid="banner"
+>
+  <div
+    className=""
+    data-testid="label"
+  >
+     
+    Men's Clothing
+  </div>
+</div>
+`;

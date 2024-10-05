@@ -1,0 +1,11 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Label matches label snapshot 1`] = `
+<div
+  className="label label__header"
+  data-testid="label"
+>
+   
+  Modern Walk
+</div>
+`;

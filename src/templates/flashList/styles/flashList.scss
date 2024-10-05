@@ -1,0 +1,14 @@
+.flashList {
+    padding-top: 20px;
+
+    .productWrapper {
+        display: flex;
+        position: relative;
+        overflow-x: auto;
+        padding: 5px 0px 5px 0px;
+        
+        &::-webkit-scrollbar {
+            display: none;
+        }
+      }
+}

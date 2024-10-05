@@ -1,0 +1,27 @@
+@import url('https://fonts.googleapis.com/css2?family=Noto+Sans:wght@400;700&display=swap');
+
+$light-gray: #f9f9f9;
+$black: #000000;
+$gray: #e0e0e0;
+$white: #FFFFFF;
+$pink: #ff5d84;
+$teal: #2ad9ae;
+$blue: #0f42fd;
+
+$primary-font: 'Noto Sans';
+
+body {
+    background-color: $light-gray;
+}
+
+.loader{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+
+    /* positioning loading indicator for mobile devices */
+    @media screen and (max-width: 767px) {
+        top: 40%;
+        left: 40%;
+    }
+}
