@@ -20,7 +20,8 @@ export const productSlice = createSlice({
 
             // filter only men & women category product items from response data list
             productList = action.payload.filter(product => {
-                return product.category === productCategoryTypes.mensClothing || product.category === productCategoryTypes.womensClothing
+                return product.category === productCategoryTypes.mensClothing || 
+                product.category === productCategoryTypes.womensClothing
             });
             
             state.loading = false;
@@ -98,5 +99,6 @@ export const getCategoryProducts = (id) => async (dispatch) => {
     }
 };
 
-export const { getProducts, getProductsResponse, getCategoryProductsResp, handleError, clearError, clearSuccess } = productSlice.actions;
+export const { getProducts, getProductsResponse, getCategoryProductsResp, handleError, 
+    clearError, clearSuccess } = productSlice.actions;
 export default productSlice.reducer;

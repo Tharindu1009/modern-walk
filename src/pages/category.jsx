@@ -15,7 +15,9 @@ import { Rings } from 'react-loader-spinner';
 function Category() {
     const dispatch = useDispatch();
 
+    // get url path parameter data to identify selected category type
     const { id } = useParams();
+
     const [labelType] = useState(labelTypes.sectionHeader);
     const [title] = useState(id === productCategoryIds.men ? "Men's Clothing" : "Women's Clothing");
 
